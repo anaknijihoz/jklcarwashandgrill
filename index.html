@@ -4,20 +4,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="fb:admins" content="{120174280393819}" />
+    <meta property="fb:admins" content="{2378116338989170}" />
     <title>JKL Carwash and Grill</title>
 
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <!-- custom css file link  -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/swiper.css">
-    <link rel="icon" href="images/googlemap.svg" type="image/gif" sizes="16x16">
-    <!-- custom <link rel="stylesheet" href="css/carousel.css">link  -->
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <link rel="icon" href="images/googlemap.svg" type="images/gif" sizes="16x16">
+    <link href="https://fonts.googleapis.com/css2?family=Birthstone&family=Italianno&family=Lobster&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body>
-    <script>
+
+    <script> 
         window.fbAsyncInit = function() {
             FB.init({
                 appId: '2378116338989170',
@@ -32,6 +35,7 @@
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v12.0&appId=2378116338989170&autoLogAppEvents=1" nonce="imRdYmyU"></script>
 
+       
 
     <!-- header section starts      -->
 
@@ -41,7 +45,6 @@
         <div class="menu-btn"></div>
         <nav class="navbar">
             <a href="#dishes">dishes</a>
-
             <a href="#menu">menu</a>
             <a href="#carwash">carwash</a>
             <a href="#review">review</a>
@@ -54,7 +57,7 @@
             <a href="tel:09672103519" class="fas fa-phone-volume"></a>
 
             <a href="#order" class="fas fa-truck"></a>
-        </div>
+        </div>  
 
     </header>
 
@@ -113,39 +116,38 @@
 
 
 
-    <section class="home">
-        <video class="video-slide active" src="video/carwash.mp4" autoplay muted loop></video>
-        <video class="video-slide" src="video/video2.mp4" autoplay muted loop></video>
-        <video class="video-slide active" src="video/carwash.mp4" autoplay muted loop></video>
-        <video class="video-slide active" src="video/carwash.mp4" autoplay muted loop></video>
+    <section class="home" data-animation="fadeInUp">
+        <video class="video-slide active" src="video/ocean-sea-wave-video.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="video/ocean-sea-wave-video.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="video/ocean-sea-wave-video.mp4" autoplay muted loop></video>
+        <video class="video-slide" src="video/ocean-sea-wave-video.mp4" autoplay muted loop></video>
         <div class="content active">
-            <h1>Unlimited Samgyupsal</h1>
-            <p><span class="boldest">For Only 198.00</span> Includes unlimited wings and sidedishes kimchi, japchae, potato marble, k-salad, k-tofu, sweeet potato, garlic, onion, paste hot soup and iced tea.</p>
-            <a href="#dishes">Read More</a>
+            <h1 class="revealeft">Unlimited Samgyupsal</h1>
+            <p>&nbsp; &nbsp; &nbsp; <span>For Only 198.00</span> Includes unlimited wings and sidedishes kimchi, japchae, potato marble, k-salad, k-tofu, sweeet potato, garlic, onion, paste hot soup and iced tea.</p>
+            <a href="#dishes">Learn More</a>
         </div>
         <div class="content">
-            <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; Founded from the dreams of a group of friends, JKL Carwash and Grill was built and conceptualized to serve people who are always on the go.</p>
-
-            <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; Situated in the heart of Barangay Pulung Cacutud, JKL Carwash and Grill aims to serve mouth-watering dishes inspired from traditional Korean Cuisine.</p>
-
-            <p style="text-align:justify">&nbsp; &nbsp; &nbsp; JKL Carwash and Grill opened on February 8, 2020, a month before lockdown. Despite the difficulties brought by the Pandemic, JKL continued to strive in serving people amidst dangerous time and it will continue still in
-                the times to come.
+              <h1 class="revealeft">About Us</h1>
+            <p>&nbsp; &nbsp; &nbsp; <span>JKL Carwash and Grill</span> opened on February 8, 2020, a month before lockdown. Despite the difficulties brought by the Pandemic, JKL continued to strive in serving people amidst dangerous time and it will continue
+                still in the times to come.
             </p>
 
             <a href="#about" class="btn">learn more</a>
         </div>
+
         <div class="content">
-            <h1>Menu</h1>
+              <h1 class="revealeft">Menu</h1>
             <p>Example text</p>
             <a href="#">Read More</a>
         </div>
         <div class="content">
-            <h1>Carwash</h1>
+              <h1 class="revealeft">Carwash</h1>
             <p>Example text</p>
             <a href="#">Read More</a>
         </div>
+
         <div class="content">
-            <h1>Carwash</h1>
+              <h1 class="revealeft">Carwash</h1>
             <p>Example text</p>
             <a href="#">Read More</a>
         </div>
@@ -156,7 +158,7 @@
         </div>
         <div class="slider-navigation">
 
-
+            <!--
             <div class="nav-btn active">
                 <video class="tinyvideo" src="video/carwash.mp4" muted autoplay></video>
 
@@ -171,14 +173,13 @@
                 <video class="tinyvideo" src="video/carwash.mp4" muted autoplay></video>
             </div>
 
-
-            <!--
-            <div class="nav-btn active"></div>
-            <div class="nav-btn active"></div>
-            <div class="nav-btn active"></div>
-            <div class="nav-btn active"></div>
-            <div class="nav-btn active"></div>
  -->
+            <div class="nav-btn active"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+            <div class="nav-btn"></div>
+           
+
 
         </div>
 
@@ -228,24 +229,23 @@
     <!-- home section ends -->
 
     <!-- dishes section starts  -->
-
     <section class="dishes" id="dishes">
 
-        <h1 class="heading"> our <span>dishes</span> </h1>
+        <h1 class="heading"> our dishes </h1>
 
         <div class="box-container">
 
             <div class="box">
-                <a href="#order"><img class="image" src="https://i.ibb.co/MGGCBLM/seta.jpg" alt=""></a>
+                <a href="#order"><img class="image" src="images/seta.jpg" alt=""></a>
                 <div class="content">
-                    <img src="https://i.ibb.co/qrsPRHj/s-1.png" alt="">
+                    <img src="images/s-1.png" alt="">
                     <h3>Unli Pork Jowl + Wings</h3>
                     <p>SET A. For Only P258.00 . Unlimited side dishes. with Kimchi rice, plain rice , hot soup and iced tea.</p>
                     <a class="btn">View</a>
                 </div>
             </div>
             <div class="box">
-                <a href="#order"><img class="image" src="https://i.ibb.co/FmKkywk/setb.jpg" alt=""></a>
+                <a href="#order"><img class="image" src="images/setb.jpg" alt=""></a>
                 <div class="content">
                     <img src="images/s-2.png" alt="">
                     <h3>Unli Pork Belly</h3>
@@ -302,7 +302,7 @@
 
     <section class="menu" id="menu">
 
-        <h1 class="heading"> our food <span> menu </span> </h1>
+        <h1 class="heading"> our food menu </h1>
 
         <div class="box-container">
 
@@ -392,20 +392,54 @@
 
     <section class="carwash" id="carwash">
 
-        <h3 class="sub-heading"> Carwash </h3>
-        <h1 class="heading"> Clean and Auto detail your car with us </h1>
+        <h3 class="sub-heading"> JKL Carwash Service</h3>
+        <h1 class="heading"> Clean and Auto detail your car with us . . </h1>
 
         <div class="row">
 
             <div class="image">
-                <video src="https://dannisonocampo.com/projects/jklgrill/video/carwash.mp4" autoplay muted loop></video>
+
+                <video class="video-slide active" src="video/carwash.mp4" autoplay muted loop></video>
             </div>
 
             <div class="content">
-                <h3>Lage keni Carwash Prices ampo Services</h3>
-                <p>Paninayan ke info kang Karen para lage kula detang services o kaya pictures/videos link daretang pepa carwash</p>
+                <h3>&nbsp; &nbsp; &nbsp; . . . our car and motorcycle maintenance are ready to assist you.</h3>
 
                 <div class="icons-container">
+                    <div style="display:flex;flex-direction: row;flex:40%;height:42vh" class="icons">
+                        <span>
+                           
+                        <ul clas="carwashul">
+                            <p>  <h1 class="revealeft">Carwash and Detailing</h1>
+                            <li>Motorcycle P80  w/wax P100</li>
+                            <li>Tricycle P80  w/wax P100</li>
+                            <li>Sedan P80  w/wax P100</li>
+                            <li>SUV Small P80  w/wax P100</li>
+                            <li>SUV Big P80  w/wax P100</li>
+                            <li>VAN Small P80  w/wax P100</li>
+                            <li>Van Big P80  w/wax P100</li>
+                            </p>
+                        </ul>
+                    </p>
+                    </span>
+                    </div>
+
+
+                    <div style="display:flex;flex-direction: row;flex:40%" class="icons">
+
+                        <ul clas="carwashul">
+                            <p>
+                                  <h1 class="revealeft">Services Offered</h1>
+                                <li>Back To Zero</li>
+                                <li>Mirror Detailing</li>
+                                <li>Interior Detailing</li>
+                                <li>Exterior Detailing</li>
+                                <li>Engine Wash</li>
+                                <li>Gas Wash</li>
+                                <li>Engine Detail</li>
+                            </p>
+                        </ul>
+                    </div>
                     <div class="icons">
                         <img src="images/vacuum.svg" width="50px" height="50px"></i>
                         <span>Vacuuming</span>
@@ -419,6 +453,10 @@
                         <span>Interior vacuuming</span>
                     </div>
                     <div class="icons">
+                        <img src="images/engine.svg" width="50px" height="50px"></i>
+                        <span>Engine Detail</span>
+                    </div>
+                    <div style="display:flex;flex-direction: row;flex:40%" class="icons">
                         <img src="images/wax.svg" width="50px" height="50px"></i>
                         <span>Car waxing</span>
                     </div>
@@ -426,11 +464,13 @@
                         <img src="images/polishing.svg" width="50px" height="50px"></i>
                         <span>Polishing</span>
                     </div>
-                </div>
-                <P><a href="#order" class="btn">Book a Schedule</a> or simply drive by our location by clicking the google map icon using a mobile.
 
-                    <a target="_blank" href="https://goo.gl/maps/6rZdawEam8HzUBhQ6" target="_blank" title="Click me To locate us"><img src="images/googlemap.svg" class="bounce" width="50px" height="50px" alt="Locate us"></a>
-                </P>
+                    <div class="icons">
+                        <a href="#order" class="btn">Book a Schedule</a> Click Google Map icon for driving direction
+                        <a target="_blank" href="https://goo.gl/maps/6rZdawEam8HzUBhQ6" target="_blank" title="Click me To locate us"><img src="images/googlemap.svg" class="bounce" width="50px" height="50px" alt="Locate us"></a>
+                    </div>
+                </div>
+
             </div>
 
         </div>
@@ -439,11 +479,229 @@
 
     <!-- carwash section ends -->
 
+    <!--featured carwash gallery begin here-->
+    <section class="featured" id="featured">
+
+
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash1.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash2.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash3.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash4.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash5.jpg" alt="">
+                    </div>
+
+                </div>
+
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash6.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash7.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash8.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash9.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash10.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash11.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash12.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash13.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash14.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash15.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash16.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash17.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash18.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash19.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash20.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Book now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/carwash/wash21.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+
+    <!-- featured section ends -->
+
+
+
     <!-- steps section starts  -->
 
     <div class="step-container">
 
-        <h1 class="heading">how it <span>works</span></h1>
+        <h1 class="heading">how it works</h1>
 
         <section class="steps">
 
@@ -474,7 +732,7 @@
 
     <section class="gallery" id="gallery">
 
-        <h1 class="heading"> our food <span> gallery </span> </h1>
+        <h1 class="heading"> our food gallery </h1>
 
         <div class="box-container">
 
@@ -542,14 +800,7 @@
                     <a href="#order" class="btn">Order now</a>
                 </div>
             </div>
-            <div class="box">
-                <img src="images/g-9.jpg" alt="">
-                <div class="content">
-                    <h3>tasty food</h3>
-                    <p>Example text</p>
-                    <a href="#order" class="btn">Order now</a>
-                </div>
-            </div>
+
 
         </div>
 
@@ -557,15 +808,766 @@
 
     <!-- gallery section ends -->
 
+
+    <!--featured carwash gallery begin here-->
+    <section class="featured" id="featured">
+
+
+
+        <div class="swiper featured-slider">
+
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/1.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/2.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/3.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/4.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/5.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/6.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/7.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/8.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/9.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/10.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/11.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/12.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/13.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/14.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/15.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/16.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/17.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/18.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/19.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/20.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/21.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/22.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/23.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/24.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/25.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/26.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/27.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/28.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/29.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/30.jpg" alt="">
+                    </div>
+
+                </div>
+              
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/32.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/33.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/34.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/35.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/36.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/37.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/38.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/39.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/40.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/41.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/42.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/43.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/44.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/45.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/46.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/47.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/48.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/49.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/50.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/51.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/52.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/53.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/54.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/55.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/56.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/57.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/58.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/59.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/60.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/61.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/62.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/63.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/64.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/65.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/66.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/67.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/68.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/69.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/70.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/71.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/72.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/73.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/74.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/75.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/76.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/77.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/78.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/79.jpg" alt="">
+                    </div>
+
+                </div>
+                <div class="swiper-slide slide">
+                    <div class="featuredicons">
+                        <a href="#order" class="btn">Order now</a>
+                    </div>
+                    <div class="featuredimage">
+                        <img src="images/gallery/80.jpg" alt="">
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+
+        </div>
+
+    </section>
+    <!---
+                    <div class="featuredcontent">
+                        <h3>product name</h3>
+                        <div class="price">
+                            <div class="amount">$20.00</div>
+                            <div class="cut">$25.00</div>
+                            <div class="offer">20% off</div>
+                        </div>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <span>(50)</span>
+                        </div>
+                    </div>
+                -->
+
+
     <!-- review section starts  -->
 
     <section class="review" id="review">
 
-        <h1 class="heading"> our customers <span>reviews</span> </h1>
+        <h1 class="heading"> our customer's reviews </h1>
 
         <div class="box-container">
 
-            <div class="box">
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%;height:30vh">
                 <img src="images/pic1.png" alt="">
                 <h3>john deo</h3>
                 <div class="stars">
@@ -577,7 +1579,7 @@
                 </div>
                 <p>Example text</p>
             </div>
-            <div class="box">
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%">
                 <img src="images/pic2.png" alt="">
                 <h3>john deo</h3>
                 <div class="stars">
@@ -589,7 +1591,44 @@
                 </div>
                 <p>Example text</p>
             </div>
-            <div class="box">
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%">
+                <img src="images/pic3.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Example text</p>
+            </div>
+
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%;height:30vh">
+                <img src="images/pic1.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Example text</p>
+            </div>
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%">
+                <img src="images/pic2.png" alt="">
+                <h3>john deo</h3>
+                <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p>Example text</p>
+            </div>
+            <div class="box" style="display:flex;flex-direction: row;flex:1 1 30%">
                 <img src="images/pic3.png" alt="">
                 <h3>john deo</h3>
                 <div class="stars">
@@ -619,15 +1658,102 @@
             <div class="image">
                 <img src="images/jklgrill.jpg" alt="">
             </div>
-
+<!--Float like a butterfly sting like a G, gangsta shit-->
             <div class="content">
                 <h3>Our Humble Beginning..</h3>
-                <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; Founded from the dreams of a group of friends, JKL Carwash and Grill was built and conceptualized to serve people who are always on the go.
-
-                    <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; Situated in the heart of Barangay Pulung Cacutud, JKL Carwash and Grill aims to serve mouth-watering dishes inspired from traditional Korean Cuisine.</p>
-
-                    <p style="text-align:justify">&nbsp; &nbsp; &nbsp; JKL Carwash and Grill opened on February 8, 2020, a month before lockdown. Despite the difficulties brought by the Pandemic, JKL continued to strive in serving people amidst dangerous time and it will continue
-                        still in the times to come.
+                 <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; 
+                    <span class="wan">Founded</span> 
+                    <span class="wan2">from</span> 
+                    <span class="wan3"> the </span> 
+                        <span class="wan4"> dreams</span> 
+                            <span class="wan5">of </span> 
+                                <span class="wan6">a </span> 
+                                    <span class="wan7"> group </span> 
+                                        <span class="wan8">of </span> 
+                                            <span class="wan9"> friends, </span> 
+                                                <span class="wan10"> JKL </span> 
+                                                    <span class="wan11"> Carwash </span> 
+                                                        <span class="wan12">and </span> 
+                                                            <span class="wan13">Grill</span> 
+                                                                <span class="wan14"> was </span> 
+                                                                    <span class="wan15"> built</span> 
+                                                                        <span class="wan16"> and </span> 
+                                                                            <span class="wan17"> conceptualized </span> 
+                                                                                <span class="wan18">to </span> 
+                                                                                    <span class="wan19">serve</span> 
+                                                                                        <span class="wan20"> people</span> 
+                                                                                            <span class="wan21">  who </span> 
+                                                                                                <span class="wan22"> are </span> 
+                                                                                                    <span class="wan23"> always</span> 
+                                                                                                        <span class="wan24">  on</span> 
+                                                                                                            <span class="wan25">   the </span> 
+                                                                                                                <span class="wan26">   go.</span> 
+</p>
+ <p style="text-align:justify"> &nbsp; &nbsp; &nbsp; 
+                    <span class="wan27">Situated</span>
+                    <span class="wan28">in </span>
+                        <span class="wan29">   the </span>
+                            <span class="wan30">   heart </span>
+                                <span class="wan31">   of </span>
+                                    <span class="wan32">  Barangay</span>
+                                        <span class="wan33"> Pulung </span>
+                                            <span class="wan34">  Cacutud,</span>
+                                                <span class="wan35">   JKL </span>
+                                                    <span class="wan36">  Carwash</span>
+                                                        <span class="wan37">  and</span>
+                                                            <span class="wan38">   Grill</span>
+                                                                <span class="wan39">   aims</span>
+                                                                    <span class="wan40">   to </span>
+                                                                        <span class="wan41">  serve </span>
+                                                                            <span class="wan42">   mouth-watering </span>
+                                                                                <span class="wan43">   dishes</span>
+                                                                                    <span class="wan44">   inspired </span>
+                                                                                        <span class="wan45">   from</span>
+                                                                                            <span class="wan46">   traditional</span>
+                                                                                                <span class="wan47">    Korean </span>
+                                                                                                    <span class="wan48">   Cuisine.</span>
+ </p>
+<p style="text-align:justify">&nbsp; &nbsp; &nbsp; 
+<span class="wan49">JKL</span> 
+<span class="wan50">Carwash</span> 
+    <span class="wan51">and </span> 
+    <span class="wan52">Grill</span> 
+    <span class="wan53">  opened</span> 
+    <span class="wan54">  on</span> 
+        <span class="wan55">  February </span> 
+            <span class="wan56"> 8,</span> 
+                <span class="wan57">2020, </span> 
+                    <span class="wan58">a</span> 
+                        <span class="wan59"> month </span> 
+                            <span class="wan60">  before </span> 
+                                <span class="wan61"> lockdown. </span> 
+                                    <span class="wan62">  Despite </span> 
+                                        <span class="wan62">  the </span> 
+                                            <span class="wan63"> difficulties</span> 
+                                                <span class="wan64">  brought </span> 
+                                                    <span class="wan65">  by </span> 
+                                                        <span class="wan66">  the</span> 
+                                                            <span class="wan67">   Pandemic,</span> 
+                                                                <span class="wan68">  JKL </span> 
+                                                                    <span class="wan69">  continued</span> 
+                                                                        <span class="wan70">  to </span> 
+                                                                            <span class="wan71">  strive</span> 
+                                                                                <span class="wan72">   in </span> 
+                                                                                    <span class="wan73">   serving </span> 
+                                                                                        <span class="wan74">    people</span> 
+                                                                                            <span class="wan75">    amidst</span> 
+                                                                                                <span class="wan76">     dangerous </span> 
+                                                                                                    <span class="wan77">     time </span> 
+                                                                                                        <span class="wan78">    and</span> 
+                                                                                                            <span class="wan79">    it </span> 
+                                                                                                                <span class="wan80">    will</span> 
+                                                                                                                    <span class="wan81">     continue</span> 
+                                                                                                                        <span class="wan82">        still</span> 
+                                                                                                                            <span class="wan83">        in </span> 
+                 <span class="wan84">        the</span> 
+                    <span class="wan85">   times </span> 
+                        <span class="wan86">   to</span> 
+                            <span class="wan87">   come.</span> 
                     </p>
                 </p>
 
@@ -639,7 +1765,7 @@
 
     <section class="contact" id="contact">
 
-        <h1 class="heading"> <span>contact</span> us </h1>
+        <h1 class="heading">contact us </h1>
 
         <div class="icons-container">
 
@@ -693,7 +1819,7 @@
 
     <section class="order" id="order">
 
-        <h1 class="heading"> Order <span>Now</span> </h1>
+        <h1 class="heading"> Order Now </h1>
 
         <div class="box-container">
 
@@ -710,6 +1836,118 @@
     </section>
 
 
+
+
+   
+
+      <script>
+        ScrollReveal({
+
+        
+          duration: 2500,
+          delay: 400
+        });
+  
+        //target elements, and specify options to create reveal animations
+        ScrollReveal().reveal('.revealeft, .heading', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.dishes .content, .image', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.box', { delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.featured .swiper, .swiper-wrapper', { delay: 600, origin: 'bottom' });
+        ScrollReveal().reveal('.box', { delay: 700, origin: 'right' });
+        ScrollReveal().reveal('.media-icons i', { delay: 500, origin: 'bottom', interval: 200 });
+        ScrollReveal().reveal('.menu .content, .carwash .content', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.media-info li', { delay: 500, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.about .sub-heading, .row .content', { delay: 500, origin: 'top' });
+        ScrollReveal().reveal('.contact .heading, .icons-container .icons', { delay: 500, origin: 'bottom' });
+        ScrollReveal().reveal('.order .heading, .box-container .box2', { delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.wan',{ delay: 500, origin: 'left' });
+        ScrollReveal().reveal('.wan2',{ delay: 1000, origin: 'left' });
+        ScrollReveal().reveal('.wan3',{ delay: 1500, origin: 'left' });
+        ScrollReveal().reveal('.wan4',{ delay: 2000, origin: 'left' });
+        ScrollReveal().reveal('.wan5',{ delay: 2500, origin: 'left' });
+        ScrollReveal().reveal('.wan6',{ delay: 3000, origin: 'left' });
+        ScrollReveal().reveal('.wan7',{ delay: 3500, origin: 'left' });
+        ScrollReveal().reveal('.wan8',{ delay: 4000, origin: 'left' });
+        ScrollReveal().reveal('.wan9',{ delay: 4500, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.wan10',{ delay: 5000, origin: 'left' });
+        ScrollReveal().reveal('.wan11',{ delay: 5500, origin: 'left' });
+        ScrollReveal().reveal('.wan12',{ delay: 6000, origin: 'left' });
+        ScrollReveal().reveal('.wan13',{ delay: 6500, origin: 'left', interval: 200 });
+        ScrollReveal().reveal('.wan14',{ delay: 7000, origin: 'left' });
+        ScrollReveal().reveal('.wan15',{ delay: 7500, origin: 'left' });
+        ScrollReveal().reveal('.wan16',{ delay: 8000, origin: 'left' });
+        ScrollReveal().reveal('.wan17',{ delay: 8500, origin: 'left' });
+        ScrollReveal().reveal('.wan18',{ delay: 9000, origin: 'left' });
+        ScrollReveal().reveal('.wan19',{ delay: 9500, origin: 'left' });
+        ScrollReveal().reveal('.wan20',{ delay: 10000, origin: 'left' });
+        ScrollReveal().reveal('.wan21',{ delay: 10500, origin: 'left' });
+        ScrollReveal().reveal('.wan22',{ delay: 11000, origin: 'left' });
+        ScrollReveal().reveal('.wan23',{ delay: 11500, origin: 'left' });
+        ScrollReveal().reveal('.wan24',{ delay: 12000, origin: 'left' });
+        ScrollReveal().reveal('.wan25',{ delay: 12500, origin: 'left' });
+        ScrollReveal().reveal('.wan26',{ delay: 13000, origin: 'left', interval: 500 });
+        ScrollReveal().reveal('.wan27',{ delay: 13500, origin: 'left' });
+        ScrollReveal().reveal('.wan28',{ delay: 14000, origin: 'left' });
+        ScrollReveal().reveal('.wan29',{ delay: 14500, origin: 'left' });
+        ScrollReveal().reveal('.wan30',{ delay: 15000, origin: 'left' });
+        ScrollReveal().reveal('.wan31',{ delay: 15500, origin: 'left' });
+        ScrollReveal().reveal('.wan32',{ delay: 16000, origin: 'left' });
+        ScrollReveal().reveal('.wan33',{ delay: 16500, origin: 'left' });
+        ScrollReveal().reveal('.wan34',{ delay: 17000, origin: 'left', interval: 300 });
+        ScrollReveal().reveal('.wan35',{ delay: 17500, origin: 'left' });
+        ScrollReveal().reveal('.wan36',{ delay: 18000, origin: 'left' });
+        ScrollReveal().reveal('.wan37',{ delay: 18500, origin: 'left' });
+        ScrollReveal().reveal('.wan38',{ delay: 19000, origin: 'left' });
+        ScrollReveal().reveal('.wan39',{ delay: 19500, origin: 'left' });
+        ScrollReveal().reveal('.wan40',{ delay: 20000, origin: 'left' });
+        ScrollReveal().reveal('.wan41',{ delay: 20500, origin: 'left' });
+        ScrollReveal().reveal('.wan42',{ delay: 21000, origin: 'left' });
+        ScrollReveal().reveal('.wan43',{ delay: 21500, origin: 'left' });
+        ScrollReveal().reveal('.wan44',{ delay: 22000, origin: 'left' });
+        ScrollReveal().reveal('.wan45',{ delay: 22500, origin: 'left' });
+        ScrollReveal().reveal('.wan46',{ delay: 23000, origin: 'left' });
+        ScrollReveal().reveal('.wan47',{ delay: 23500, origin: 'left' });
+        ScrollReveal().reveal('.wan48',{ delay: 24000, origin: 'left' });
+        ScrollReveal().reveal('.wan49',{ delay: 24500, origin: 'left', interval: 500 });
+        ScrollReveal().reveal('.wan50',{ delay: 25000, origin: 'left' });
+        ScrollReveal().reveal('.wan51',{ delay: 25500, origin: 'left' });
+        ScrollReveal().reveal('.wan52',{ delay: 26000, origin: 'left' });
+        ScrollReveal().reveal('.wan53',{ delay: 26500, origin: 'left' });
+        ScrollReveal().reveal('.wan54',{ delay: 27000, origin: 'left' });
+        ScrollReveal().reveal('.wan55',{ delay: 27500, origin: 'left' });
+        ScrollReveal().reveal('.wan56',{ delay: 28000, origin: 'left' });
+        ScrollReveal().reveal('.wan57',{ delay: 28500, origin: 'left' });
+        ScrollReveal().reveal('.wan58',{ delay: 29000, origin: 'left' });
+        ScrollReveal().reveal('.wan59',{ delay: 29500, origin: 'left' });
+        ScrollReveal().reveal('.wan60',{ delay: 30000, origin: 'left' });
+        ScrollReveal().reveal('.wan61',{ delay: 30500, origin: 'left' });
+        ScrollReveal().reveal('.wan62',{ delay: 31000, origin: 'left' });
+        ScrollReveal().reveal('.wan63',{ delay: 31500, origin: 'left' });
+        ScrollReveal().reveal('.wan64',{ delay: 32000, origin: 'left' });
+        ScrollReveal().reveal('.wan65',{ delay: 32500, origin: 'left' });
+        ScrollReveal().reveal('.wan66',{ delay: 33000, origin: 'left' });
+        ScrollReveal().reveal('.wan67',{ delay: 33500, origin: 'left' });
+        ScrollReveal().reveal('.wan68',{ delay: 34000, origin: 'left' });
+        ScrollReveal().reveal('.wan69',{ delay: 34500, origin: 'left' });
+        ScrollReveal().reveal('.wan70',{ delay: 35000, origin: 'left' });
+        ScrollReveal().reveal('.wan71',{ delay: 35500, origin: 'left' });
+        ScrollReveal().reveal('.wan72',{ delay: 36000, origin: 'left' });
+        ScrollReveal().reveal('.wan73',{ delay: 36500, origin: 'left' });
+        ScrollReveal().reveal('.wan74',{ delay: 37000, origin: 'left' });
+        ScrollReveal().reveal('.wan75',{ delay: 37500, origin: 'left' });
+        ScrollReveal().reveal('.wan76',{ delay: 38000, origin: 'left' });
+        ScrollReveal().reveal('.wan77',{ delay: 38500, origin: 'left' });
+        ScrollReveal().reveal('.wan78',{ delay: 39000, origin: 'left' });
+        ScrollReveal().reveal('.wan79',{ delay: 39500, origin: 'left' });
+        ScrollReveal().reveal('.wan80',{ delay: 40000, origin: 'left' });
+        ScrollReveal().reveal('.wan81',{ delay: 40500, origin: 'left' });
+        ScrollReveal().reveal('.wan82',{ delay: 41000, origin: 'left' });
+        ScrollReveal().reveal('.wan83',{ delay: 41500, origin: 'left' });
+        ScrollReveal().reveal('.wan84',{ delay: 42000, origin: 'left' });
+        ScrollReveal().reveal('.wan85',{ delay: 42500, origin: 'left' });
+        ScrollReveal().reveal('.wan86',{ delay: 43000, origin: 'left' });
+        ScrollReveal().reveal('.wan87',{ delay: 43500, origin: 'left' });
+</script>
     <!-- footer section starts  -->
 
     <section class="footer">
@@ -757,8 +1995,11 @@
 
     </section>
 
-    <!-- footer section ends -->
 
+
+
+
+    <!-- footer section ends -->
     <!-- scroll top button  -->
     <a href="#home" class="fas fa-angle-up" id="scroll-top"></a>
 
@@ -766,27 +2007,11 @@
     <div class="loader-container">
         <img src="images/loader.gif" alt="">
     </div>
--->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    -->
+  
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+  
     <script src="js/script.js"></script>
-    <script src="js/swiper.js"></script>
 </body>
 
 </html>
