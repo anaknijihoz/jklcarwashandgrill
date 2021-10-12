@@ -1746,6 +1746,19 @@ nav {
         color: #666;
         padding: 1rem 0;
     }
+        
+        header .logo {
+    font-size: 1.5rem;
+}
+        
+        .home .content span {
+    text-shadow: 1px 1px #000000;
+}
+        .home .content p {
+
+    text-shadow: 1px 1px black;
+}
+        
     
 }
 
