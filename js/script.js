@@ -30,3 +30,41 @@ function fadeOut() {
 }
 
 window.onload = fadeOut();
+
+
+
+var swiper = new Swiper(".featured-slider", {
+    centeredSlides: true,
+    loop: true,
+    spaceBetween: 20,
+    autoplay: {
+        delay: 9500,
+        disableOnInteraction: false,
+    },
+    navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+        0: {
+            slidesPerView: 1,
+        },
+        450: {
+            slidesPerView: 2,
+        },
+        768: {
+            slidesPerView: 3,
+        },
+        1200: {
+            slidesPerView: 4,
+        },
+    },
+});
+
+
+var offsetStart = 0;
+var offsetEnd = 0;
+
+window.addEventListener('scroll', () => {
+  document.documentElement.style.setProperty('--scroll', ( window.pageYOffset - offsetStart ) / ( document.documentElement.offsetHeight - offsetStart - offsetEnd - window.innerHeight ));
+}, false);
