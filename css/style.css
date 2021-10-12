@@ -38,6 +38,18 @@ section {
     padding: 2rem 9%;
 }
 
+.green
+{
+    color:green;
+    font-weight:bolder;
+}
+
+.red
+{
+    color:red;
+    font-weight:bolder;
+}
+
 .sub-heading {
     text-align: center;
     color: var(--green);
@@ -440,6 +452,7 @@ nav {
     position: absolute;
     top: -100%;
     left: 0;
+    margin: auto;
 }
 
 .dishes .box-container .box .content {
@@ -449,7 +462,7 @@ nav {
 }
 
 .dishes .box-container .box .content img {
-    margin: 1.5rem 0;
+    margin: 2.5rem 0;
 }
 
 .dishes .box-container .box .content h3 {
