@@ -1358,7 +1358,7 @@ nav {
     border:.1rem solid rgba(0,0,0,.2);
     border-radius: .5rem;
     position: relative; 
-    overflow:hidden;  
+    overflow:hidden;
 }
 
 .review .slide .fa-quote-right{
@@ -1366,6 +1366,7 @@ nav {
     top:2rem; right:2rem;
     font-size: 6rem;
     color:#ccc;
+    overflow:hidden;
 }
 
 .review .slide .user{
@@ -1373,6 +1374,7 @@ nav {
     gap:1.5rem;
     align-items: center;
     padding-bottom: 1.5rem;
+    overflow:hidden;
 }
 
 .review .slide .user img{
@@ -1380,23 +1382,27 @@ nav {
     width: 7rem;
     border-radius: 50%;
     object-fit: cover;
+    overflow:hidden;
 }
 
 .review .slide .user h3{
     color:var(--black);
     font-size: 2rem;
     padding-bottom: .5rem;
+    overflow:hidden;
 }
 
 .review .slide .user i{
     font-size: 1.3rem;
     color:var(--green);
+    overflow:hidden;
 }
 
 .review .slide p{
     font-size: 1.5rem;
     line-height: 1.8;
     color:var(--light-color);
+    overflow:hidden;
 }
 
 .order .box-container {
@@ -1734,6 +1740,13 @@ nav {
         font-size: 1.2em;
         line-height: 25px;
     }
+
+    .menu .box-container .box .content p {
+        font-size: 0.9rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+    
 }
 
 @media(max-width:300px) {
