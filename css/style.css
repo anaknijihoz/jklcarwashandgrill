@@ -822,19 +822,17 @@ nav {
     padding:.5rem 1rem;
     border-radius: .5rem;
     text-shadow: 1px 1px white;
+
   }
 
-  .menu .box-container .box .price  span{
+  .menu .box-container .box  span.green{
 background-color: rgba(255, 255, 255, 0.7);
 border-radius: 25rem 2rem;
-
   }
 
-  .menu .red
-  {
-    background-color: rgba(0, 0, 0, 0.7);
-    border-radius: 25rem 2rem;
-  }
+
+
+
 
 
 .menu .box-container .box img {
