@@ -441,8 +441,10 @@ nav {
     overflow: hidden;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
     border: .1rem solid rgba(0, 0, 0, .3);
+    border-radius: 20rem 5rem;
     cursor: pointer;
-    border-radius: .5rem;
+    background-image: linear-gradient(to right, rgb(0, 0, 0) , rgb(91, 91, 88));
+
 }
 
 .dishes .box-container .box .image {
@@ -453,6 +455,7 @@ nav {
     top: -100%;
     left: 0;
     margin: auto;
+    z-index:1;
 }
 
   
@@ -461,22 +464,27 @@ nav {
     text-align: center;
     background: #fff;
     padding: 2rem;
+    background-image: linear-gradient(to right, rgb(57, 55, 55) , rgb(23, 23, 23));
+    border-radius: 20rem 5rem;
+    margin-top: 5rem;
+    z-index:-1;
+
 }
 
 .dishes .box-container .box .content img {
     margin: 2.5rem 0;
     border-radius: 5rem 10rem;
-    border: 5px solid green;
+    border: 2rem solid rgb(255, 255, 255);
 }
 
 .dishes .box-container .box .content h3 {
     font-size: 2.5rem;
-    color: #333;
+    color: white;
 }
 
 .dishes .box-container .box .content p {
     font-size: 1.6rem;
-    color: #666;
+    color: white;
     padding: 1rem 0;
 }
 
@@ -829,8 +837,6 @@ nav {
 background-color: rgba(255, 255, 255, 0.7);
 border-radius: 25rem 2rem;
   }
-
-
 
 
 
