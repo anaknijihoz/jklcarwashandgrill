@@ -1576,6 +1576,10 @@ nav {
     section {
         padding: 5px 20px;
     }
+    .menu .box-container .box .content h3 {
+        font-size: 1.2rem;
+        color: #333;
+    }
 }
 
 @media(max-width:2040px) {
@@ -1687,6 +1691,7 @@ nav {
     }
 }
 
+
 @media(max-width:450px) {
     .nav-btn.tinyvideo {
         z-index: 999999;
@@ -1777,6 +1782,15 @@ nav {
         list-style-type: none;
         text-align: center;
     }
+    header .logo {
+        font-size: 1.1rem;
+    }
+                .green {
+        font-size: 2rem;
+    }
+
+}
+
     @media(max-width:50px) {
         html {
             font-size: 25%;
@@ -1792,10 +1806,5 @@ nav {
             list-style-type: none;
             text-align: center;
         }
-            header .logo {
-    font-size: 1.1rem;
-}
-            .green {
-    font-size: 2rem;
-}
+            
     }
