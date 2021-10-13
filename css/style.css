@@ -432,11 +432,11 @@ nav {
 .dishes .box-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 5rem;
 }
 
 .dishes .box-container .box {
-    flex: 1 1 30rem;
+    flex: 1 1 40rem;
     position: relative;
     overflow: hidden;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -463,6 +463,8 @@ nav {
 
 .dishes .box-container .box .content img {
     margin: 2.5rem 0;
+    border-radius: 5rem 10rem;
+    border: 5px solid green;
 }
 
 .dishes .box-container .box .content h3 {
