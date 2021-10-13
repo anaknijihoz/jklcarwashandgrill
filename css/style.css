@@ -1792,4 +1792,7 @@ nav {
             list-style-type: none;
             text-align: center;
         }
+            header .logo {
+    font-size: 1.1rem;
+}
     }
