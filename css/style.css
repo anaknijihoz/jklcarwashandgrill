@@ -37,6 +37,7 @@ html {
 
 section {
     padding: 2rem 9%;
+ 
 }
 
 .green
@@ -1892,6 +1893,14 @@ border-radius: 25rem 2rem;
         text-shadow: 1px 1px white;
         color:green;
     }
+    .services2 .list {
+        height: 42vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 40vh;
+    }
 
     
 }
@@ -1985,17 +1994,20 @@ border-radius: 25rem 2rem;
         text-align: left;
         width: 80px;      
     }
+    .services2 .list {
+        height: 35vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 30vh;
+    }
 
     
 }
-
+/*surface duo*/
 @media(max-width:600px) {
-    .nav-btn.tinyvideo {
-        z-index: 999999;
-        position: absolute;
-        width: 2px;
-        height: 2px;
-    }
+   
     html {
         font-size: 50%;
     }
@@ -2013,17 +2025,126 @@ border-radius: 25rem 2rem;
         font-size: 1.5rem;
         list-style-type: none;
         text-align: center;
+    }
+
+    .services2 .list {
+        height: 45vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 40vh;
     }
 }
 
 
-@media(max-width:450px) {
-    .nav-btn.tinyvideo {
-        z-index: 999999;
-        position: absolute;
-        width: 2px;
-        height: 2px;
+
+
+@media (max-width:540)
+{
+    
+    html {
+        font-size: 55%;
     }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 40px 20px;
+    }
+    .carwash ul {
+        font-size: 1rem;
+        list-style-type: none;
+        text-align: center;
+    }
+    .home .content h1 {
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .home .content span {
+        font-size: 1em;
+    }
+    .home .content p {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .menu .box-container .box .content p {
+        font-size: 0.9rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+        
+        header .logo {
+    font-size: 1.5rem;
+    }
+        
+        .home .content span {
+    text-shadow: 1px 1px #000000;
+    }
+        .home .content p {
+
+    text-shadow: 1px 1px black;
+    }
+
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 7rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+
+    
+    .services2 .box-container .box h3 {
+        background-color: rgb(231 215 215 / 70%);
+        border-radius: 1rem 1rem;
+        font-size: 1.2rem;
+        text-shadow: none;
+        color: black;
+        align-items: left;
+    }
+
+    .services2 .list li {
+        font-size: 1rem;
+        padding: 5px;
+        font-weight: bold;
+    }
+
+    .services2 .box-container .box { 
+        padding: 1rem;
+        border-radius: .5rem;
+        box-shadow: var(--box-shadow);
+        border: var(--border);
+        text-align: left;
+        width: 80px;      
+    }
+    .services2 .list {
+        height: 99vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 40vh;
+    }
+ 
+}
+
+
+
+@media(max-width:450px) {
+    
     html {
         font-size: 50%;
     }
@@ -2041,6 +2162,10 @@ border-radius: 25rem 2rem;
         font-size: 1.5rem;
         list-style-type: none;
         text-align: center;
+    }
+
+    .swiper {
+        height: 50vh;
     }
 }
 
@@ -2112,7 +2237,9 @@ border-radius: 25rem 2rem;
         color:green;
     }
   
-
+    .swiper {
+        height: 50vh;
+    }
 
 }
 
@@ -2207,6 +2334,18 @@ border-radius: 25rem 2rem;
         border: var(--border);
         text-align: left;
         width: 80px;      
+    }
+
+    .services2 .list {
+        height: 35vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 30vh;
+    }
+    .swiper {
+        height: 50vh;
     }
 
 }
@@ -2308,6 +2447,19 @@ border-radius: 25rem 2rem;
         width: 80px;      
     }
 
+    .services2 .list {
+        height: 35vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 30vh;
+    }
+
+    .swiper {
+        height: 50vh;
+    }
+
 }
 
 
@@ -2403,7 +2555,19 @@ border-radius: 25rem 2rem;
         text-align: left;
         width: 80px;      
     }
-    
+
+    .services2 .list {
+        height: 35vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 30vh;
+    }
+
+    .swiper {
+        height: 50vh;
+    }
 }
 
 
@@ -2468,6 +2632,20 @@ border-radius: 25rem 2rem;
         text-align: left;
         width: 80px;      
     }
+
+    .services2 .list {
+        height: 25vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 20vh;
+    }
+
+    .swiper {
+        height: 30vh;
+    }
+
 }
 
 
@@ -2538,6 +2716,19 @@ border-radius: 25rem 2rem;
         width: 80px;      
     }
 
+    .services2 .list {
+        height: 25vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 20vh;
+    }
+
+    .swiper {
+        height: 30vh;
+    }
+
 }
 
 
@@ -2606,6 +2797,29 @@ border-radius: 25rem 2rem;
         border: var(--border);
         text-align: left;
         width: 70px;      
+    }
+
+    .services .box-container .box img {
+        width: 220px;
+        height: 220px;
+    }
+
+    .services2 .box-container {
+
+        height: 10vh;
+    }
+
+    .services2 .list {
+        height: 35vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 30vh;
+    }
+
+    .swiper {
+        height: 30vh;
     }
 
 }
