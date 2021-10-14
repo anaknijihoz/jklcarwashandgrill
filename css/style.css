@@ -1099,6 +1099,10 @@ border-radius: 25rem 2rem;
    border-radius: 5rem 1rem;
 }
 
+.services .box-container .box img:hover{
+   transform: scale(1.2);
+ }
+
 
 .services .box-container .box p{
     line-height: 1.8;
