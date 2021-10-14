@@ -290,10 +290,13 @@ nav {
     font-size: 10em;
     font-weight: 900;
     letter-spacing: 5px;
-    line-height: 25px;
+    line-height: 10rem;
     margin-bottom: 40px;
-    color: red;
-    text-shadow: 2px 2px #000000;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 5rem 2rem;
+    font-size: 10rem;
+    text-shadow: 1px 1px white;
+    color:green;
 }
 
 .home .content p {
@@ -303,14 +306,18 @@ nav {
     line-height: 65px;
     text-align: justify;
     margin-bottom: 30px;
-    text-shadow: 2px 2px #000000;
+    font-size: 4rem;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
 }
 
 .home .content span {
-    font-size: 1.2em;
+    font-size: 5rem;
     font-weight: 600;
     color: red;
-    text-shadow: 2px 2px #000000;
+    text-shadow: 1px 1px white;
 }
 
 .home .content a {
@@ -1661,17 +1668,69 @@ border-radius: 25rem 2rem;
     }
 }
 
-@media(max-width:991px) {
-    html {
-        font-size: 55%;
+
+@media(max-width:1024px) {
+    .home video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
     }
-    header {
-        padding: 2rem;
+    #menu-bar {
+        display: initial;
+        height: 100px;
+        width: 100px;
     }
-    section {
-        padding: 2rem;
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #f7f7f7;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: .2rem solid rgba(0, 0, 0, .1);
+        border-left: .5rem solid var(--red);
+        background: #fff;
+    }
+
+    .home .content span {
+        font-size: 1em;
+    }
+    .home .content p {
+        font-size: 2em;
+        line-height: 25px;
+    }
+
+    .home .content p {
+        font-size: 5rem;
+        line-height: 5rem;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 17rem;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 20rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+
+    
 }
+
 
 @media(max-width:768px) {
     .home video {
@@ -1717,6 +1776,27 @@ border-radius: 25rem 2rem;
         font-size: 2em;
         line-height: 25px;
     }
+
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 7rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+
+    
 }
 
 @media(max-width:600px) {
@@ -1774,7 +1854,11 @@ border-radius: 25rem 2rem;
     }
 }
 
-@media(max-width:320px) {
+
+
+@media(max-width:400px) 
+{
+
     html {
         font-size: 55%;
     }
@@ -1809,20 +1893,300 @@ border-radius: 25rem 2rem;
         
         header .logo {
     font-size: 1.5rem;
-}
+    }
         
         .home .content span {
     text-shadow: 1px 1px #000000;
-}
+    }
         .home .content p {
 
     text-shadow: 1px 1px black;
+    }
+
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 7rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+  
+
+
 }
+
+
+
+@media screen and (min-device-width: 401px) and (max-device-width: 449px) 
+{
+
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 40px 20px;
+    }
+    .carwash ul {
+        font-size: 1rem;
+        list-style-type: none;
+        text-align: center;
+    }
+    .home .content h1 {
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .home .content span {
+        font-size: 1em;
+    }
+    .home .content p {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .menu .box-container .box .content p {
+        font-size: 0.9rem;
+        color: #666;
+        padding: 1rem 0;
+    }
         
+        header .logo {
+    font-size: 1.5rem;
+    }
+        
+        .home .content span {
+    text-shadow: 1px 1px #000000;
+    }
+        .home .content p {
+
+    text-shadow: 1px 1px black;
+    }
+
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 6rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+  
+
+
+}
+
+
+
+@media screen and (min-device-width: 360px) and (max-device-width: 399px) 
+{
+
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 40px 20px;
+    }
+    .carwash ul {
+        font-size: 1rem;
+        list-style-type: none;
+        text-align: center;
+    }
+    .home .content h1 {
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .home .content span {
+        font-size: 1em;
+    }
+    .home .content p {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .menu .box-container .box .content p {
+        font-size: 0.9rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+        
+        header .logo {
+    font-size: 1.5rem;
+    }
+        
+        .home .content span {
+    text-shadow: 1px 1px #000000;
+    }
+        .home .content p {
+
+    text-shadow: 1px 1px black;
+    }
+
+    .home .content p {
+        font-size: 2rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 5.2rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+  
+
+
+}
+
+
+
+
+
+@media(max-width:320px) 
+{
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 2rem;
+    }
+    section {
+        padding: 40px 20px;
+    }
+    .carwash ul {
+        font-size: 1rem;
+        list-style-type: none;
+        text-align: center;
+    }
+    .home .content h1 {
+        line-height: 25px;
+        margin-bottom: 30px;
+    }
+    .home .content span {
+        font-size: 1em;
+    }
+    .home .content p {
+        font-size: 1.2em;
+        line-height: 25px;
+    }
+
+    .menu .box-container .box .content p {
+        font-size: 0.9rem;
+        color: #666;
+        padding: 1rem 0;
+    }
+        
+        header .logo {
+    font-size: 1.5rem;
+    }
+        
+        .home .content span {
+    text-shadow: 1px 1px #000000;
+    }
+        .home .content p {
+
+    text-shadow: 1px 1px black;
+    }
+        
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 4.5rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+  
+
     
 }
 
-@media(max-width:300px) {
+
+
+@media screen and (min-device-width: 301px) and (max-device-width: 316px) { 
+   
+    header .logo {
+        font-size: 1.1rem;
+    }
+
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        margin-top: 0px;
+    }
+
+    .home .content span {
+        font-size: 2rem;
+        font-family: Poppins;
+    }
+
+    .home .content p {
+        font-size: 1.6rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 4.5rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+  
+
+}
+
+
+@media(max-width:300px) 
+{
     html {
         font-size: 55%;
     }
@@ -1844,9 +2208,33 @@ border-radius: 25rem 2rem;
         font-size: 2rem;
     }
 
+    .home .content p {
+        font-size: 1.2rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        color:black;
+        text-shadow: 1px 1px white;
+    }
+    
+    .home .content h1 {
+        line-height: 40px;
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        border-radius: 5rem 2rem;
+        font-size: 4rem;
+        text-shadow: 1px 1px white;
+        color:green;
+    }
+
+
+
 }
 
-    @media(max-width:50px) {
+
+
+    @media(max-width:50px) 
+{
         html {
             font-size: 25%;
         }
@@ -1862,4 +2250,4 @@ border-radius: 25rem 2rem;
             text-align: center;
         }
             
-    }
+}
