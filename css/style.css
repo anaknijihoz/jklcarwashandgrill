@@ -448,7 +448,10 @@ nav {
 
 .dishes
 {
-    background-color: rgb(59, 56, 56); 
+    background-color:#333;
+    background-size: cover;
+    background-position: center; 
+
 }
 
 .dishes .heading
@@ -459,6 +462,8 @@ nav {
     display: flex;
     flex-wrap: wrap;
     gap: 5rem;
+  
+
     
 }
 
@@ -2432,40 +2437,42 @@ border-radius: 25rem 2rem;
 
 
 @media screen and (min-device-width: 301px) and (max-device-width: 316px) { 
-   
+
     header .logo {
-        font-size: 1.1rem;
-    }
-
-    .home .content h1 {
-        line-height: 40px;
-        margin-bottom: 30px;
-        margin-top: 0px;
-    }
-
-    .home .content span {
-        font-size: 2rem;
-        font-family: Poppins;
-    }
-
-    .home .content p {
-        font-size: 1.6rem;
-        line-height: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
+        font-size: 1.5rem;
+        }
+            
+            .home .content span {
+        text-shadow: 1px 1px #000000;
+        }
     
-    .home .content h1 {
-        line-height: 40px;
-        margin-bottom: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        font-size: 4.5rem;
-        text-shadow: 1px 1px white;
-        color:green;
-    }
+              
+        .home .content h1 {
+            line-height: 40px;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 5rem 2rem;
+            font-size: 4.5rem;
+            text-shadow: 1px 1px white;
+            color:green;
+        }
+    
+    
+        
+        .home .content {
+            width: 70%;
+     
+        }
+     
+        .home .content p {
+            font-size: 1.4rem;
+            line-height: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    
+        .heading {
+            font-size: 3rem;
+        }
   
     .services2 .box-container .box h3 {
         font-size: 2.2rem;
@@ -2607,31 +2614,46 @@ border-radius: 25rem 2rem;
         list-style-type: none;
         text-align: center;
     }
-    header .logo {
-        font-size: 1.1rem;
-    }
+=
                 .green {
         font-size: 2rem;
     }
 
-    .home .content p {
-        font-size: 1.2rem;
-        line-height: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
+    header .logo {
+        font-size: 1.1rem;
+        }
+            
+            .home .content span {
+        text-shadow: 1px 1px #000000;
+        }
     
-    .home .content h1 {
-        line-height: 40px;
-        margin-bottom: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        font-size: 4rem;
-        text-shadow: 1px 1px white;
-        color:green;
-    }
+              
+        .home .content h1 {
+            line-height: 40px;
+            margin-bottom: 30px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 5rem 2rem;
+            font-size: 3rem;
+            text-shadow: 1px 1px white;
+            color:green;
+        }
+    
+    
+        
+        .home .content {
+            width: 70%;
+     
+        }
+     
+        .home .content p {
+            font-size: 1.4rem;
+            line-height: 20px;
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+    
+        .heading {
+            font-size: 3rem;
+        }
 
     .services2 .box-container .box h3 {
         font-size: 2.2rem;
