@@ -537,32 +537,6 @@ nav {
    
 }
 
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 .about .row {
     display: flex;
     flex-wrap: wrap;
@@ -653,33 +627,6 @@ nav {
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
 }
-
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 
 .contact .icons-container {
     display: -ms-grid;
@@ -803,32 +750,6 @@ nav {
     animation-fill-mode: both;
 }
 
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
-
 
 .menu
 {
@@ -921,31 +842,6 @@ border-radius: 25rem 2rem;
     animation-fill-mode: both;
 }
 
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
-}
 
 .carwash .row {
     display: flex;
@@ -1031,32 +927,6 @@ border-radius: 25rem 2rem;
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-}
-
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 
@@ -1341,32 +1211,6 @@ border-radius: 25rem 2rem;
     animation-duration: 2s;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-}
-
-@-webkit-keyframes scroll {
-    0% {
-        opacity: 0;
-        -webkit-transform: translateX(-500px);
-    }
-    0% {
-        opacity: 0.5;
-        -webkit-transform: translateX(-200px);
-    }
-    100% {
-        opacity: 1;
-        -webkit-transform: translateX(0);
-    }
-}
-
-@keyframes scroll {
-    0% {
-        opacity: 0;
-        transform: translateX(-20px);
-    }
-    100% {
-        opacity: 1;
-        transform: translateX(0);
-    }
 }
 
 .steps {
