@@ -263,6 +263,11 @@ nav {
 
 }
 
+.home .box-container
+{
+    z-index: 99999999;
+}
+
 .home:before {
     z-index: 777;
     content: '';
@@ -277,7 +282,7 @@ nav {
 .home .content {
     z-index: 888;
     color: #fff;
-    width: 70%;
+    width: 30%;
     margin-top: 50px;
     display: none;
 }
@@ -293,7 +298,6 @@ nav {
     letter-spacing: 5px;
     line-height: 10rem;
     margin-bottom: 40px;
-    background-color: rgba(255, 255, 255, 0.7);
     border-radius: 5rem 2rem;
     font-size: 10rem;
     text-shadow: 1px 1px white;
@@ -302,20 +306,22 @@ nav {
 
 .home .content p {
     font-family: Poppins;
-    font-size: 3em;
+    font-size: 2rem;
     font-weight: 900;
-    line-height: 65px;
+    line-height: 35px;
     text-align: justify;
     margin-bottom: 30px;
-    font-size: 4rem;
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.3);
         border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
+        color:rgba(255, 255, 255, 1);
+        text-shadow: 1px 1px rgb(19, 18, 18,  1);
+        padding:5px;
+      
 }
 
 .home .content span {
     font-size: 5rem;
+    font-family:Lobster;
     font-weight: 600;
     color: red;
     text-shadow: 1px 1px white;
@@ -1709,6 +1715,8 @@ border-radius: 25rem 2rem;
     padding: 1rem 0;
 }
 
+
+
 .footer .box-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
@@ -1717,14 +1725,14 @@ border-radius: 25rem 2rem;
 
 .footer .box-container .box h3 {
     padding: .5rem 0;
-    font-size: 2.5rem;
+    font-size: 1rem;
     color: var(--black);
 }
 
 .footer .box-container .box a {
     display: block;
     padding: .5rem 0;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: var(--light-color);
 }
 
@@ -1780,7 +1788,7 @@ border-radius: 25rem 2rem;
 .loader-container.fade-out {
     top: -120%;
 }
-/* media queries  */
+/* media queries   */
 
 @media(max-width:5040px) {
     html {
@@ -1870,29 +1878,38 @@ border-radius: 25rem 2rem;
     .home .content span {
         font-size: 1em;
     }
-    .home .content p {
-        font-size: 2em;
-        line-height: 25px;
-    }
 
-    .home .content p {
-        font-size: 5rem;
-        line-height: 5rem;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
+
     
     .home .content h1 {
         line-height: 17rem;
         margin-bottom: 30px;
-        background-color: rgba(255, 255, 255, 0.7);
+       background-color: rgba(255, 255, 255, 0.7);  
         border-radius: 5rem 2rem;
-        font-size: 20rem;
+        font-size: 10rem;
         text-shadow: 1px 1px white;
         color:green;
+        text-align:Center;
     }
+
+
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 3rem;
+        line-height: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        text-shadow: 1px 1px rgb(3, 3, 3);
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+
     .services2 .list {
         height: 42vh;
     }
@@ -1937,37 +1954,38 @@ border-radius: 25rem 2rem;
         border-left: .5rem solid var(--red);
         background: #fff;
     }
-    .home .content h1 {
-        font-size: 7em;
-    }
-    .home .content p {
-        line-height: 25px;
-    }
+
     .home .content span {
         font-size: 1em;
     }
-    .home .content p {
-        font-size: 2em;
-        line-height: 25px;
-    }
-
-    .home .content p {
-        font-size: 1.6rem;
-        line-height: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
+ 
     
     .home .content h1 {
         line-height: 40px;
         margin-bottom: 30px;
         background-color: rgba(255, 255, 255, 0.7);
         border-radius: 5rem 2rem;
-        font-size: 7rem;
+        font-size: 9rem;
         text-shadow: 1px 1px white;
         color:green;
+        text-align: center;
+    }
+
+
+     
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 3rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .heading {
+        font-size: 3rem;
     }
 
     .services2 .box-container .box h3 {
@@ -2006,6 +2024,9 @@ border-radius: 25rem 2rem;
     
 }
 /*surface duo*/
+
+
+
 @media(max-width:600px) {
    
     html {
@@ -2262,16 +2283,9 @@ border-radius: 25rem 2rem;
         list-style-type: none;
         text-align: center;
     }
-    .home .content h1 {
-        line-height: 25px;
-        margin-bottom: 30px;
-    }
+
     .home .content span {
         font-size: 1em;
-    }
-    .home .content p {
-        font-size: 1.2em;
-        line-height: 25px;
     }
 
     .menu .box-container .box .content p {
@@ -2287,19 +2301,7 @@ border-radius: 25rem 2rem;
         .home .content span {
     text-shadow: 1px 1px #000000;
     }
-        .home .content p {
 
-    text-shadow: 1px 1px black;
-    }
-
-    .home .content p {
-        font-size: 1.6rem;
-        line-height: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
     
     .home .content h1 {
         line-height: 40px;
@@ -2309,6 +2311,22 @@ border-radius: 25rem 2rem;
         font-size: 6rem;
         text-shadow: 1px 1px white;
         color:green;
+    }
+
+    
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 1.3rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .heading {
+        font-size: 3rem;
     }
   
 
@@ -2369,17 +2387,7 @@ border-radius: 25rem 2rem;
         list-style-type: none;
         text-align: center;
     }
-    .home .content h1 {
-        line-height: 25px;
-        margin-bottom: 30px;
-    }
-    .home .content span {
-        font-size: 1em;
-    }
-    .home .content p {
-        font-size: 1.2em;
-        line-height: 25px;
-    }
+
 
     .menu .box-container .box .content p {
         font-size: 0.9rem;
@@ -2393,10 +2401,6 @@ border-radius: 25rem 2rem;
         
         .home .content span {
     text-shadow: 1px 1px #000000;
-    }
-        .home .content p {
-
-    text-shadow: 1px 1px black;
     }
 
     .home .content p {
@@ -2417,9 +2421,21 @@ border-radius: 25rem 2rem;
         text-shadow: 1px 1px white;
         color:green;
     }
-  
+
+
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 1.3rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
     .heading {
-        font-size: 1.2rem;
+        font-size: 3rem;
     }
 
     .services2 .box-container .box h3 {
@@ -2482,17 +2498,11 @@ border-radius: 25rem 2rem;
         list-style-type: none;
         text-align: center;
     }
-    .home .content h1 {
-        line-height: 25px;
-        margin-bottom: 30px;
-    }
+
     .home .content span {
         font-size: 1em;
     }
-    .home .content p {
-        font-size: 1.2em;
-        line-height: 25px;
-    }
+
 
     .menu .box-container .box .content p {
         font-size: 0.9rem;
@@ -2507,20 +2517,8 @@ border-radius: 25rem 2rem;
         .home .content span {
     text-shadow: 1px 1px #000000;
     }
-        .home .content p {
 
-    text-shadow: 1px 1px black;
-    }
-        
-    .home .content p {
-        font-size: 1.6rem;
-        line-height: 20px;
-        background-color: rgba(255, 255, 255, 0.7);
-        border-radius: 5rem 2rem;
-        color:black;
-        text-shadow: 1px 1px white;
-    }
-    
+          
     .home .content h1 {
         line-height: 40px;
         margin-bottom: 30px;
@@ -2529,6 +2527,23 @@ border-radius: 25rem 2rem;
         font-size: 4.5rem;
         text-shadow: 1px 1px white;
         color:green;
+    }
+
+
+    
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 1.4rem;
+        line-height: 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+    }
+
+    .heading {
+        font-size: 3rem;
     }
   
     .services2 .box-container .box h3 {
