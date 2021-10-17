@@ -94,3 +94,9 @@ var swiper = new Swiper(".review-slider", {
       },
     },
   });
+
+
+  window.addEventListener("load", function()
+  {
+AOS.init();
+  });
