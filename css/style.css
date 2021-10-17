@@ -1685,7 +1685,21 @@ border-radius: 25rem 2rem;
     }
 }
 
-@media screen and (min-device-width: 1025px) and (max-device-width: 5000px) 
+@media(max-width:1000px) {
+    html {
+        font-size: 55%;
+    }
+    header {
+        padding: 1rem;
+    }
+    section {
+        padding: 20px 20px;
+    }
+}
+
+
+
+@media screen and (min-device-width: 769px) and (max-device-width: 5000px) 
 
 {
     .home video {
@@ -1744,10 +1758,14 @@ border-radius: 25rem 2rem;
         flex: 1 1 25%;
     }
     
+    .menu .box-container .box {
+        flex: 1 1 20%;
+
+    }
 
 }
 
-
+/*
 @media(max-width:1024px) {
     .home video {
         width: 100%;
@@ -1806,7 +1824,7 @@ border-radius: 25rem 2rem;
     
 }
 
-
+*/
 @media(max-width:768px) {
     .home video {
         width: 100%;
@@ -2049,6 +2067,10 @@ border-radius: 25rem 2rem;
     {
         flex: 1 1 40rem;
     }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
+    }
     
 }
 
@@ -2083,6 +2105,9 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 }
 
@@ -2163,6 +2188,9 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 
 }
@@ -2273,6 +2301,10 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 
 }
@@ -2390,6 +2422,10 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 }
 
@@ -2510,6 +2546,10 @@ border-radius: 25rem 2rem;
     {
         flex: 1 1 40rem;
     }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
+    }
 }
 
 
@@ -2601,6 +2641,10 @@ border-radius: 25rem 2rem;
         flex: 1 1 40rem;
     }
 
+    .menu .box-container .box {
+        flex: 1 1 35rem;
+    }
+
 }
 
 
@@ -2688,6 +2732,10 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 
 }
@@ -2807,6 +2855,10 @@ border-radius: 25rem 2rem;
 
     {
         flex: 1 1 40rem;
+    }
+
+    .menu .box-container .box {
+        flex: 1 1 35rem;
     }
 
 }
