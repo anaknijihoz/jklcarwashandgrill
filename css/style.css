@@ -99,6 +99,12 @@ header {
     box-shadow: var(--box-shadow);
 }
 
+.grilltools {
+    width: 35px;
+    height: 35px;
+}
+
+
 header .logo {
     color: var(--black);
     font-size: 2.5rem;
@@ -1679,16 +1685,90 @@ border-radius: 25rem 2rem;
     }
 }
 
-@media(max-width:1040px) {
-    html {
-        font-size: 55%;
+@media screen and (min-device-width: 1025px) and (max-device-width: 5000px) 
+
+{
+    .home video {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
     }
-    header {
-        padding: 2rem;
+    #menu-bar {
+        display: initial;
+        height: 100px;
+        width: 100px;
     }
-    section {
-        padding: 50px 20px;
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: #f7f7f7;
+        border-top: .1rem solid rgba(0, 0, 0, .1);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     }
+    header .navbar.active {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+    header .navbar a {
+        margin: 1.5rem;
+        padding: 1.5rem;
+        display: block;
+        border: .2rem solid rgba(0, 0, 0, .1);
+        border-left: .5rem solid var(--red);
+        background: #fff;
+    }
+
+    .home .content span {
+        font-size: 1em;
+    }
+
+
+    
+    .home .content h1 {
+        line-height: 17rem;
+        margin-bottom: 30px;
+       background-color: rgba(255, 255, 255, 0.7);  
+        border-radius: 5rem 2rem;
+        font-size: 10rem;
+        text-shadow: 1px 1px white;
+        color:green;
+        text-align:Center;
+    }
+
+
+    .home .content {
+        width: 70%;
+ 
+    }
+ 
+    .home .content p {
+        font-size: 3rem;
+        line-height: 30px;
+        background-color: rgba(255, 255, 255, 0.2);
+        text-shadow: 1px 1px rgb(3, 3, 3);
+    }
+
+    .heading {
+        font-size: 3rem;
+    }
+
+
+    .services2 .list {
+        height: 42vh;
+    }
+
+    .services2 .box-container {
+ 
+        height: 40vh;
+    }
+
+
+    .dishes .box-container .box {
+        flex: 1 1 25%;
+    }
+    
+
 }
 
 
@@ -1768,6 +1848,10 @@ border-radius: 25rem 2rem;
         height: 40vh;
     }
 
+
+    .dishes .box-container .box {
+        flex: 1 1 25%;
+    }
     
 }
 
@@ -2009,6 +2093,12 @@ border-radius: 25rem 2rem;
         height: 40vh;
     }
  
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
+    
 }
 
 
@@ -2037,7 +2127,14 @@ border-radius: 25rem 2rem;
     .swiper {
         height: 50vh;
     }
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
 }
+
 
 
 
@@ -2109,6 +2206,12 @@ border-radius: 25rem 2rem;
   
     .swiper {
         height: 50vh;
+    }
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
     }
 
 }
@@ -2213,6 +2316,12 @@ border-radius: 25rem 2rem;
     }
     .swiper {
         height: 50vh;
+    }
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
     }
 
 }
@@ -2325,6 +2434,12 @@ border-radius: 25rem 2rem;
         height: 50vh;
     }
 
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
 }
 
 
@@ -2359,8 +2474,14 @@ border-radius: 25rem 2rem;
         padding: 1rem 0;
     }
         
+
+    .grilltools {
+        width: 35px;
+        height: 35px;
+    }
+
         header .logo {
-    font-size: 1.5rem;
+    font-size: 1rem;
     }
         
         .home .content span {
@@ -2432,6 +2553,12 @@ border-radius: 25rem 2rem;
     .swiper {
         height: 50vh;
     }
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
 }
 
 
@@ -2439,9 +2566,14 @@ border-radius: 25rem 2rem;
 @media screen and (min-device-width: 301px) and (max-device-width: 316px) { 
 
     header .logo {
-        font-size: 1.5rem;
+        font-size: 1rem;
         }
             
+        .grilltools {
+            width: 35px;
+            height: 35px;
+        }
+
             .home .content span {
         text-shadow: 1px 1px #000000;
         }
@@ -2510,6 +2642,12 @@ border-radius: 25rem 2rem;
 
     .swiper {
         height: 30vh;
+    }
+
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
     }
 
 }
@@ -2595,6 +2733,12 @@ border-radius: 25rem 2rem;
         height: 30vh;
     }
 
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
+
 }
 
 
@@ -2619,8 +2763,13 @@ border-radius: 25rem 2rem;
         font-size: 2rem;
     }
 
+    .grilltools {
+        width: 35px;
+        height: 35px;
+    }
+
     header .logo {
-        font-size: 1.1rem;
+        font-size: 0.7rem;
         }
             
             .home .content span {
@@ -2703,6 +2852,12 @@ border-radius: 25rem 2rem;
         height: 30vh;
     }
 
+    .dishes .box-container .box
+
+    {
+        flex: 1 1 40rem;
+    }
+
 }
 
 
@@ -2722,6 +2877,12 @@ border-radius: 25rem 2rem;
             font-size: 1.2rem;
             list-style-type: none;
             text-align: center;
+        }
+
+        .dishes .box-container .box
+
+        {
+            flex: 1 1 40rem;
         }
             
 }
