@@ -1223,6 +1223,14 @@ position:relative;
     top: 0;
 }
 
+
+
+
+
+.featured .swiper
+{
+    border-radius: 10rem 10rem;
+}
 .featured .featured-slider .slide {
     border-radius: 5rem;
     overflow: hidden;
@@ -1230,6 +1238,7 @@ position:relative;
     -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     border: 1rem solid rgba(0, 0, 0, 0.3);
+    
 }
 
 .featured .featured-slider .slide .featuredicons {
@@ -1824,81 +1833,6 @@ position:relative;
 
 
 
-
-
-/*
-
-
-.home {
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
-}
-
-.home .box-container
-{
-    z-index: 99999999;
-}
-
-.home:before {
-    z-index: 777;
-    content: '';
-    position: absolute;
-
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-}
-
-.home .content {
-    z-index: 888;
-    color: #fff;
-    width: 30%;
-    margin-top: 50px;
-    display: none;
-}
-
-.home .content.active {
-    display: block;
-}
-
-
-
-.home .content a {
-    margin-top: 1rem;
-    display: inline-block;
-    font-size: 1.7rem;
-    color: #fff;
-    background: var(--black);
-    border-radius: .5rem;
-    cursor: pointer;
-    padding: .8rem 3rem;
-}
-
-.home .content a:hover {
-    background: var(--green);
-    letter-spacing: .1rem;
-}
-
-.home .media-icons {
-    z-index: 888;
-    position: absolute;
-    right: 30px;
-    display: flex;
-    flex-direction: column;
-    transition: 0.5s ease;
-}
-
-*/
-
-
-
-
     /* Dishes  */
     .dishes .box-container 
     {
@@ -2030,7 +1964,31 @@ position:relative;
      }
 
   /* Carwash */
-    
+ .carwash
+ {
+position: relative;
+ justify-content: center;
+ align-items: center;
+ background-image: url("/images/carwash/carbg.jpg");
+ background-size: cover;
+ background-attachment: fixed;
+ 
+ }
+.carwash .heading
+{
+    color:white;
+    text-shadow: 1px 1px black;
+}
+
+.carwash .sub-heading
+{  
+    font-size: 3rem;
+    color:white;
+    text-shadow: 1px 1px black;
+
+}
+
+     /* Carwash Services List */ 
   .services .box-container 
   {
       width:80%;
@@ -2038,6 +1996,25 @@ position:relative;
       align-items: center;
       margin: auto;      
   }
+   /* Carwash Services Price */ 
+
+
+   .services2
+   {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/carwash/carbg2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+
+   .services2 .heading
+   {
+       color:white;
+       text-shadow: 1px 1px black;
+   }
 
 
   .services2 .box-container 
@@ -2066,6 +2043,22 @@ position:relative;
 
    /* About Us */
 
+
+   .about
+   {
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/images/jklexterior/exterior.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+   }
+
+   .about .sub-heading
+   {
+    text-shadow: 1px 1px white;
+   }
+
    .about .row
    {
        width:80%;
@@ -2073,6 +2066,33 @@ position:relative;
        align-items: center;
        margin: auto;      
    }
+
+
+   .about .content
+   {
+       background-color: rgba(14, 13, 13, 0.8);
+       border-radius: 5rem;
+       height:50rem;
+   }
+
+   .about span {
+       color:white;
+  
+    text-shadow: 1px 1px rgb(255, 255, 255, 0.2)
+   }
+
+   .about .row .content h3 {
+    color: var(--black);
+    font-size: 5rem;
+    padding: .5rem 0;
+    font-family: Lobster;
+    text-shadow: 1px 1px white;
+}
+
+.about .row .image img 
+{
+    border-radius: 5rem;
+}
 
 
     /* Steps  */
@@ -2115,12 +2135,30 @@ position:relative;
 
       /* Order  */
 
+
+      .order
+      {
+       position: relative;
+       justify-content: center;
+       align-items: center;
+       background-image: url("/images/samgyupsal.jpg");
+       background-size: cover;
+       background-attachment: fixed;
+      
+      }
+
+      .order .heading
+      {
+          text-shadow: 1px 1px white;
+      }
+
       .order .box-container 
       {
           width:40%;
           justify-content: left;
           align-items: left;
           margin: auto; 
+          margin-bottom: 5rem;
       }
 
       .order .box2 {
@@ -2138,82 +2176,6 @@ position:relative;
 /*
 
 
-.order .box-container {
-  
-}
-
-.order .box-container .box {
-    text-align: center;
-    padding: 2rem;
-    border: 1rem solid #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-    border-radius: .5rem;
-    background: #333;
-    flex: 1;
-}
-
-.order .box-container .box img {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    border: 1rem solid #fff;
-    margin-top: -8rem;
-    object-fit: cover;
-}
-
-
-
-.order .box-container .box2 {
-    text-align: center;
-    padding: 2rem;
-    border: 1rem solid #fff;
-    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .3);
-    border-radius: .5rem;
-    flex: 1;
-    background: #333;
-}
-
-.order .box-container .box2 img {
-    height: 12rem;
-    width: 12rem;
-    border-radius: 50%;
-    border: 1rem solid #fff;
-    margin-top: -8rem;
-    object-fit: cover;
-}
-
-.order .box3 {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    position: relative;
-}
-
-.order .box-container .box h3 {
-    font-size: 2.5rem;
-    color: #fff;
-    padding: .5rem 0;
-}
-
-.order .box-container .box .stars i {
-    font-size: 2rem;
-    color: var(--red);
-    padding: .5rem 0;
-}
-
-.order .box-container .box p {
-    font-size: 1.5rem;
-    color: #eee;
-    padding: 1rem 0;
-}
-
-
-
-
-
-
-
-*/
 
 
 
