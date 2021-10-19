@@ -3311,6 +3311,21 @@ position: relative;
 
 }
 
+@media screen and (min-device-width: 50px) and (max-device-width: 768px) 
+{
+    .custom-shape-divider-bottom-1634551315 .shape-fill 
+    {
+   
+    visibility: hidden;
+    }
+
+    .custom-shape-divider-top-1634551237 .shape-fill {
+        visibility: hidden;
+
+    }
+
+
+}
 
 
     @media(max-width:50px) 
