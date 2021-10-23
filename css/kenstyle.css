@@ -584,14 +584,14 @@ nav {
 
 
 /*Dishes Stlyles*/
+  
 
 .dishes
 {
-    background-color:white;
-    background-size: cover;
-    background-position: center; 
-
-}
+   height: 100%;
+   width: 100%;
+ 
+ }
 
 
 .dishes .box-container {
@@ -3270,7 +3270,8 @@ position: relative;
         list-style-type: none;
         text-align: center;
     }
-=
+
+
                 .green {
         font-size: 2rem;
     }
