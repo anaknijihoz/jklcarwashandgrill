@@ -1063,6 +1063,7 @@ h6 {
 
 .heading__title {
   font-size: 37px;
+  font-family: Lobster;
 }
 
 .heading__desc {
@@ -6022,5 +6023,28 @@ textarea.form-control {
   padding:2px;
 }
 
+.heading-white .heading__title {
+  color: #ffffff;
+  font-family:Lobster;
+}
+
 
 }
+
+
+
+/* Mobile Phones and tablets */
+@media only screen and (min-width: 281px) and (max-width: 767px) {
+ 
+  .menu-layout5 .menu-item .menu__item-price {
+      top: 12px;
+      right: -15%;
+      position: absolute;
+  }
+  
+  .menu-layout5 .menu-item hr {
+   width:200px;
+}
+
+  
+  }
