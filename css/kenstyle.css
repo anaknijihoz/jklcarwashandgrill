@@ -44,9 +44,44 @@ section {
 }
 
 
+.btn-custom {
+    position: relative;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 22px;
+    padding: 5px 10px;
+    background-color: #c7a254;
+    color: #ffffff;
+    margin: auto;
+    width: 120px;
+    text-align: center;
+    display: inline-block;
+    z-index: 2;
+}
 
 
 
+.btn-custom:before, .btn-custom:after {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    width: 50%;
+    height: 30px;
+    background-color: #c7a254;
+    z-index: -1;
+  }
+  
+  .btn-custom:before {
+    right: 0;
+    -webkit-transform: skewY(20deg);
+            transform: skewY(20deg);
+  }
+  
+  .btn-custom:after {
+    -webkit-transform: skewY(-20deg);
+            transform: skewY(-20deg);
+    left: 0;
+  }
+  
 .custom-shape-divider-top-1634551237 {
     position: absolute;
     top: 0;
@@ -1645,6 +1680,14 @@ position:relative;
     font-size: 1.5rem;
     color: #eee;
     padding: 1rem 0;
+}
+
+
+
+.contact .credit
+{
+    margin-top:5rem;
+    font-size:1.2rem;
 }
 
 
