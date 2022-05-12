@@ -112,6 +112,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         };
     </script>
 
+    const facebookChat = () => {
+    window.fbAsyncInit = function() {
+        FB.init({
+            xfbml            : true,
+            version          : 'v9.0'
+        });
+    };
+
+    (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = 'https://connect.facebook.net/pl_PL/sdk/xfbml.customerchat.js';
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+
+}
+
+setTimeout(facebookChat, 5000);
+    
 
     <!-- header section starts      -->
 
